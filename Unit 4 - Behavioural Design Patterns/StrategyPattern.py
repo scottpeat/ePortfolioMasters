@@ -45,4 +45,4 @@ if __name__ == "__main__":
 
     # Change the strategy to cryptocurrency
     processor.set_strategy(CryptoPayment())
-    processor.process_payment(300
+    processor.process_payment(300)
