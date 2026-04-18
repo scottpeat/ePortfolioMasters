@@ -15,7 +15,7 @@
 <p></p>
 <h2>Unit 8 - Refactoring and Code Smells</h2>
 <p></p>
-<h2>Unit 9 - Refactoring and Code Smells</h2>
+<h2>Unit 9 - Object-Oriented Software Architecture</h2>
 <p></p>
 <h2>Unit 10 - Test-Driven Development (TDD) and Behaviour Driven Development (BDD)</h2>
 <p></p>
