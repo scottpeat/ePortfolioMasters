@@ -1,14 +1,19 @@
+# Designing Real World Application with SOLID Principles
+
 from abc import ABC, abstractmethod
 
+# Single Responsibility Principle (SRP)
 class PaymentMethod(ABC):
     @abstractmethod
     def name(self, name):
         pass
 
+# Open/Closed Principle (OCP)
 class CreditCardPayment(PaymentMethod):
     def name(self, name):
         return f"Processing payment with {name}."
 
+#
 class PayPalPayment(PaymentMethod):
     def name(self, name):
         return f"Processing payment with {name}."
