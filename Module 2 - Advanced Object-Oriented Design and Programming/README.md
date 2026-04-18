@@ -10,3 +10,16 @@
 <h2>Unit 5 - Design Patterns III - Behavioural Patterns</h2>
 <p></p>
 <h2>Unit 6 - Concurrency and Parallelism in Object-Oriented Design</h2>
+<p></p>
+<h2>Unit 7 - Secure Coding Practices in Object-Oriented Programming</h2>
+<p></p>
+<h2>Unit 8 - Refactoring and Code Smells</h2>
+<p></p>
+<h2>Unit 9 - Refactoring and Code Smells</h2>
+<p></p>
+<h2>Unit 10 - Test-Driven Development (TDD) and Behaviour Driven Development (BDD)</h2>
+<p></p>
+<h2>Unit 11 - Dependency Injection and Inversion of Control (IoC)</h2>
+<p></p>
+<h2>Unit 12 - Capstone Project - Python Password Manager CLI</h2>
+<p></p>
