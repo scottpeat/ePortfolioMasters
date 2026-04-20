@@ -1,25 +1,39 @@
-<h1 align="center">Advanced Object-Oriented Design and Programming</h1>
-<h2>Unit 1 - Introduction and Recap of Object-Oriented Programming (OOP)</h2>
-<p></p>
-<h2>Unit 2 - Designing Real World Application with SOLID Principles</h2>
-<p></p>
-<h2>Unit 3 - Design Patterns I - Creational Patterns</h2>
-<p></p>
-<h2>Unit 4 - Design Patterns II - Structural Patterns</h2>
-<p></p>
-<h2>Unit 5 - Design Patterns III - Behavioural Patterns</h2>
-<p></p>
-<h2>Unit 6 - Concurrency and Parallelism in Object-Oriented Design</h2>
-<p></p>
-<h2>Unit 7 - Secure Coding Practices in Object-Oriented Programming</h2>
-<p></p>
-<h2>Unit 8 - Refactoring and Code Smells</h2>
-<p></p>
-<h2>Unit 9 - Object-Oriented Software Architecture</h2>
-<p></p>
-<h2>Unit 10 - Test-Driven Development (TDD) and Behaviour Driven Development (BDD)</h2>
-<p></p>
-<h2>Unit 11 - Dependency Injection and Inversion of Control (IoC)</h2>
-<p></p>
-<h2>Unit 12 - Capstone Project - Python Password Manager CLI</h2>
-<p></p>
+# Module 2 - Advanced Object-Oriented Design and Programming
+
+This module focused on advanced OOP principles, design patterns, secure coding practices, and software architecture design. The work presented here demonstrates my ability to apply theoretical concepts to practical coding tasks and projects.
+
+## 📁 Contents
+
+- [Evidence](./Evidence/) – Code samples and explanations from each unit
+- [Capstone Project](./Evidence/Capstone-Password-Manager/) – Main summative project
+
+## Learning Focus
+
+- Advanced OOP principles (SOLID)
+- Gang of Four Design Patterns (Creational, Structural, Behavioural)
+- Secure Coding Practices
+- Software Architecture Design (Layered, Monolithic, Microservices)
+- Building adaptable and maintainable systems
+
+## Repository Structure
+
+All code artefacts are organised by unit inside the [`Evidence`](./Evidence/) folder. Each unit folder contains:
+- The source code
+- A `README.md` explaining the purpose, OOP concepts used, and what was achieved
+
+---
+
+## Key Artefacts Overview
+
+- **Unit 3** – Factory Method Design Pattern Implementation
+- **Unit 6** – Bank Account System Refactoring (SOLID Principles)
+- **Unit 7** – Secure User Authentication System
+- **Capstone Project** – Python CLI Password Manager Application
+
+---
+
+**Main Reflection Report** (Full written e-Portfolio) is available separately as a PDF / Markdown document.
+
+---
+
+*Last updated: April 2026*
