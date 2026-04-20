@@ -21,7 +21,7 @@ class BankAccount:
 
         # Printing/logging should be done OUTSIDE the lock
         print(f"Deposited £{amount:,.2f}. New balance: £{new_balance:,.2f}")
-``
+
     def withdraw(self, amount: float) -> None:
         """Withdraws a positive amount if sufficient funds are available."""
         if amount <= 0:
