@@ -5,7 +5,7 @@ This module focused on advanced OOP principles, design patterns, secure coding p
 ## 📁 Contents
 
 - [Evidence](./Evidence/) – Code samples and explanations from each unit
-- [Capstone Project](./Evidence/Capstone-Password-Manager/) – Main summative project
+- [Capstone Project](./Evidence/Capstone/) – Main summative project
 
 ## Learning Focus
 
