@@ -1,4 +1,4 @@
-Markdown# Unit 5: Design Patterns III - Behavioural Patterns
+# Unit 5: Design Patterns III - Behavioural Patterns
 
 ## Overview
 This repository contains my work for **Unit 5: Behavioural Design Patterns**. The main task was to analyse a poorly designed payment processing system and refactor it using the **Strategy Pattern**.
