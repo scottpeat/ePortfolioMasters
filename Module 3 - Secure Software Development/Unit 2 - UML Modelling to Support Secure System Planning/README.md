@@ -1,0 +1,13 @@
+# Mitigating the Insider Threat: 5 ISO 27000 Keys to Managing Human Risk
+
+It is well known in information security that humans are notoriously viewed as the weakest link. While millions are poured into firewalls and endpoint detection, an organisation's security posture can be undone simply by members of its own staff. To effectively manage this insider risk, the standardised language of ISO/IEC 27000 can be used to build a structured framework to train employees on security risks and how they can be prevented.
+
+Below are five terms from Section 3 of ISO/IEC 27000 that define how personnel can be guided to overcome inside attacks:
+
+* **Information Security Continuity (3.35):** Security cannot be paused during organisational change or high-stress periods. By embedding security protocols deeply into daily habits, they become second nature to personnel and thus can ensure continuity is maintained even if an employee makes an operational error.
+* **Access Control (3.1):** The principle of least privilege is the strongest technical control against human error. By implementing and limiting user access rights to only what is necessary for their role, you prevent operational error or the malice of a rogue insider and limit their attack surface.
+* **Consequence (3.14):** Employees must explicitly understand the outcome of an event that affects the organisational objectives. Personnel that understand the real-world outcomes and the severe consequences of data mishandling, rather than just viewing security as an IT problem, are more likely to adhere to the protection of data within an organisation.
+* **Policy (3.53):** A vague directive breeds vulnerability. Organisations need to establish clear, enforceable intentions and directions which are formally expressed by management. If policies regarding data classification and acceptable use are unambiguous, it removes the gray areas that malicious insiders exploit.
+* **Reliability (3.62):** This represents the property of consistent intended behaviour and results. With continuous, simulated phishing exercises and tailored security awareness training, personnel are transformed from unaware security liabilities into reliable human intrusion detection systems.
+
+By aligning human resource management with these ISO 27000 principles, organisations can transform their people from their biggest cybersecurity risk into their strongest line of defence.
