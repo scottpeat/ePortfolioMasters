@@ -1,0 +1,50 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+title Secure Smart Road Monitoring System - Misuse Case Diagram
+
+' Define Actors
+actor "Traffic Sensor Node" as Sensor
+actor "Traffic Operator" as Operator
+actor "Cyber Attacker" as Attacker #Tomato
+
+rectangle "Smart Road MVC Application" {
+    
+    ' Standard Use Cases
+    usecase "Transmit Telemetry Data" as UC_Telemetry
+    usecase "Store Traffic Logs" as UC_Logs
+    usecase "Modify Traffic Parameters" as UC_Config
+    
+    ' Misuse Cases (Threats)
+    usecase "Inject Fabricated Telemetry\n(Packet Sniffing / Replay)" as MC_Inject #Black;text:white
+    usecase "Harvest Raw PII\n(Vehicle Registration Numbers)" as MC_Harvest #Black;text:white
+    usecase "Bypass Terminal Access\n(Privilege Escalation)" as MC_Bypass #Black;text:white
+    
+    ' Mitigation Cases (Countermeasures)
+    usecase "Enforce Fernet Symmetric Encryption\n(Python Cryptography Library)" as MIT_Encrypt #LightGreen
+    usecase "Execute Salted SHA-256 Hashing\n(Python Hashlib Library)" as MIT_Hash #LightGreen
+    usecase "Verify Role-Based Access Control\n(RBAC Controller Authorization)" as MIT_RBAC #LightGreen
+}
+
+' Left Side: Legitimate Actions
+Sensor --> UC_Telemetry
+Sensor --> UC_Logs
+Operator --> UC_Config
+
+' Right Side: Attacks threatening Use Cases
+Attacker --> MC_Inject
+Attacker --> MC_Harvest
+Attacker --> MC_Bypass
+
+' Relationships (Threats & Mitigations)
+MC_Inject .left.> UC_Telemetry : <<threatens>>
+MIT_Encrypt .down.> MC_Inject : <<mitigates>>
+
+MC_Harvest .left.> UC_Logs : <<threatens>>
+MIT_Hash .down.> MC_Harvest : <<mitigates>>
+
+MC_Bypass .left.> UC_Config : <<threatens>>
+MIT_RBAC .down.> MC_Bypass : <<mitigates>>
+
+@endum
