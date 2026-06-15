@@ -1,4 +1,4 @@
-# Unit 3 – Cryptography and Secure Execution
+# Unit 3 – Programming Languages: History, Concepts & Design
 ## Lab Writeup: Buffer Overflow in C and Python
 
 This lab explores how unsafe memory handling in C can lead to buffer overflow vulnerabilities, and compares this against Python, where the language runtime enforces bounds checking. The exercise demonstrates why C requires careful, defensive programming and how static analysis tools like Pylint can support secure coding practices.
